@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAFCDBDE2AE961BE00CCEAD7 /* RollTheDiceHackwhichApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCDBDD2AE961BE00CCEAD7 /* RollTheDiceHackwhichApp.swift */; };
+		CAFCDBE02AE961BE00CCEAD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCDBDF2AE961BE00CCEAD7 /* ContentView.swift */; };
+		CAFCDBE22AE961C000CCEAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFCDBE12AE961C000CCEAD7 /* Assets.xcassets */; };
+		CAFCDBE52AE961C000CCEAD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFCDBE42AE961C000CCEAD7 /* Preview Assets.xcassets */; };
+		CAFCDBEF2AE961C000CCEAD7 /* RollTheDiceHackwhichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCDBEE2AE961C000CCEAD7 /* RollTheDiceHackwhichTests.swift */; };
+		CAFCDBF92AE961C000CCEAD7 /* RollTheDiceHackwhichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCDBF82AE961C000CCEAD7 /* RollTheDiceHackwhichUITests.swift */; };
+		CAFCDBFB2AE961C000CCEAD7 /* RollTheDiceHackwhichUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCDBFA2AE961C000CCEAD7 /* RollTheDiceHackwhichUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAFCDBEB2AE961C000CCEAD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFCDBD22AE961BE00CCEAD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFCDBD92AE961BE00CCEAD7;
+			remoteInfo = RollTheDiceHackwhich;
+		};
+		CAFCDBF52AE961C000CCEAD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFCDBD22AE961BE00CCEAD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFCDBD92AE961BE00CCEAD7;
+			remoteInfo = RollTheDiceHackwhich;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAFCDBDA2AE961BE00CCEAD7 /* RollTheDiceHackwhich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollTheDiceHackwhich.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFCDBDD2AE961BE00CCEAD7 /* RollTheDiceHackwhichApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTheDiceHackwhichApp.swift; sourceTree = "<group>"; };
+		CAFCDBDF2AE961BE00CCEAD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAFCDBE12AE961C000CCEAD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAFCDBE42AE961C000CCEAD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAFCDBEA2AE961C000CCEAD7 /* RollTheDiceHackwhichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollTheDiceHackwhichTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFCDBEE2AE961C000CCEAD7 /* RollTheDiceHackwhichTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTheDiceHackwhichTests.swift; sourceTree = "<group>"; };
+		CAFCDBF42AE961C000CCEAD7 /* RollTheDiceHackwhichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollTheDiceHackwhichUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFCDBF82AE961C000CCEAD7 /* RollTheDiceHackwhichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTheDiceHackwhichUITests.swift; sourceTree = "<group>"; };
+		CAFCDBFA2AE961C000CCEAD7 /* RollTheDiceHackwhichUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTheDiceHackwhichUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFCDBD72AE961BE00CCEAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCDBE72AE961C000CCEAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCDBF12AE961C000CCEAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFCDBD12AE961BE00CCEAD7 = {
+			isa = PBXGroup;
+			children = (
+				CAFCDBDC2AE961BE00CCEAD7 /* RollTheDiceHackwhich */,
+				CAFCDBED2AE961C000CCEAD7 /* RollTheDiceHackwhichTests */,
+				CAFCDBF72AE961C000CCEAD7 /* RollTheDiceHackwhichUITests */,
+				CAFCDBDB2AE961BE00CCEAD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFCDBDB2AE961BE00CCEAD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCDBDA2AE961BE00CCEAD7 /* RollTheDiceHackwhich.app */,
+				CAFCDBEA2AE961C000CCEAD7 /* RollTheDiceHackwhichTests.xctest */,
+				CAFCDBF42AE961C000CCEAD7 /* RollTheDiceHackwhichUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFCDBDC2AE961BE00CCEAD7 /* RollTheDiceHackwhich */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCDBDD2AE961BE00CCEAD7 /* RollTheDiceHackwhichApp.swift */,
+				CAFCDBDF2AE961BE00CCEAD7 /* ContentView.swift */,
+				CAFCDBE12AE961C000CCEAD7 /* Assets.xcassets */,
+				CAFCDBE32AE961C000CCEAD7 /* Preview Content */,
+			);
+			path = RollTheDiceHackwhich;
+			sourceTree = "<group>";
+		};
+		CAFCDBE32AE961C000CCEAD7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCDBE42AE961C000CCEAD7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAFCDBED2AE961C000CCEAD7 /* RollTheDiceHackwhichTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCDBEE2AE961C000CCEAD7 /* RollTheDiceHackwhichTests.swift */,
+			);
+			path = RollTheDiceHackwhichTests;
+			sourceTree = "<group>";
+		};
+		CAFCDBF72AE961C000CCEAD7 /* RollTheDiceHackwhichUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCDBF82AE961C000CCEAD7 /* RollTheDiceHackwhichUITests.swift */,
+				CAFCDBFA2AE961C000CCEAD7 /* RollTheDiceHackwhichUITestsLaunchTests.swift */,
+			);
+			path = RollTheDiceHackwhichUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFCDBD92AE961BE00CCEAD7 /* RollTheDiceHackwhich */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFCDBFE2AE961C000CCEAD7 /* Build configuration list for PBXNativeTarget "RollTheDiceHackwhich" */;
+			buildPhases = (
+				CAFCDBD62AE961BE00CCEAD7 /* Sources */,
+				CAFCDBD72AE961BE00CCEAD7 /* Frameworks */,
+				CAFCDBD82AE961BE00CCEAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollTheDiceHackwhich;
+			productName = RollTheDiceHackwhich;
+			productReference = CAFCDBDA2AE961BE00CCEAD7 /* RollTheDiceHackwhich.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAFCDBE92AE961C000CCEAD7 /* RollTheDiceHackwhichTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFCDC012AE961C000CCEAD7 /* Build configuration list for PBXNativeTarget "RollTheDiceHackwhichTests" */;
+			buildPhases = (
+				CAFCDBE62AE961C000CCEAD7 /* Sources */,
+				CAFCDBE72AE961C000CCEAD7 /* Frameworks */,
+				CAFCDBE82AE961C000CCEAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFCDBEC2AE961C000CCEAD7 /* PBXTargetDependency */,
+			);
+			name = RollTheDiceHackwhichTests;
+			productName = RollTheDiceHackwhichTests;
+			productReference = CAFCDBEA2AE961C000CCEAD7 /* RollTheDiceHackwhichTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAFCDBF32AE961C000CCEAD7 /* RollTheDiceHackwhichUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFCDC042AE961C000CCEAD7 /* Build configuration list for PBXNativeTarget "RollTheDiceHackwhichUITests" */;
+			buildPhases = (
+				CAFCDBF02AE961C000CCEAD7 /* Sources */,
+				CAFCDBF12AE961C000CCEAD7 /* Frameworks */,
+				CAFCDBF22AE961C000CCEAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFCDBF62AE961C000CCEAD7 /* PBXTargetDependency */,
+			);
+			name = RollTheDiceHackwhichUITests;
+			productName = RollTheDiceHackwhichUITests;
+			productReference = CAFCDBF42AE961C000CCEAD7 /* RollTheDiceHackwhichUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFCDBD22AE961BE00CCEAD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CAFCDBD92AE961BE00CCEAD7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CAFCDBE92AE961C000CCEAD7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CAFCDBD92AE961BE00CCEAD7;
+					};
+					CAFCDBF32AE961C000CCEAD7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CAFCDBD92AE961BE00CCEAD7;
+					};
+				};
+			};
+			buildConfigurationList = CAFCDBD52AE961BE00CCEAD7 /* Build configuration list for PBXProject "RollTheDiceHackwhich" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFCDBD12AE961BE00CCEAD7;
+			productRefGroup = CAFCDBDB2AE961BE00CCEAD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFCDBD92AE961BE00CCEAD7 /* RollTheDiceHackwhich */,
+				CAFCDBE92AE961C000CCEAD7 /* RollTheDiceHackwhichTests */,
+				CAFCDBF32AE961C000CCEAD7 /* RollTheDiceHackwhichUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFCDBD82AE961BE00CCEAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFCDBE52AE961C000CCEAD7 /* Preview Assets.xcassets in Resources */,
+				CAFCDBE22AE961C000CCEAD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCDBE82AE961C000CCEAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCDBF22AE961C000CCEAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFCDBD62AE961BE00CCEAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFCDBE02AE961BE00CCEAD7 /* ContentView.swift in Sources */,
+				CAFCDBDE2AE961BE00CCEAD7 /* RollTheDiceHackwhichApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCDBE62AE961C000CCEAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFCDBEF2AE961C000CCEAD7 /* RollTheDiceHackwhichTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFCDBF02AE961C000CCEAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFCDBF92AE961C000CCEAD7 /* RollTheDiceHackwhichUITests.swift in Sources */,
+				CAFCDBFB2AE961C000CCEAD7 /* RollTheDiceHackwhichUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAFCDBEC2AE961C000CCEAD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFCDBD92AE961BE00CCEAD7 /* RollTheDiceHackwhich */;
+			targetProxy = CAFCDBEB2AE961C000CCEAD7 /* PBXContainerItemProxy */;
+		};
+		CAFCDBF62AE961C000CCEAD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFCDBD92AE961BE00CCEAD7 /* RollTheDiceHackwhich */;
+			targetProxy = CAFCDBF52AE961C000CCEAD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAFCDBFC2AE961C000CCEAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAFCDBFD2AE961C000CCEAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFCDBFF2AE961C000CCEAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RollTheDiceHackwhich/Preview Content\"";
+				DEVELOPMENT_TEAM = HLCYK9G2MU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wills-software.RollTheDiceHackwhich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAFCDC002AE961C000CCEAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RollTheDiceHackwhich/Preview Content\"";
+				DEVELOPMENT_TEAM = HLCYK9G2MU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wills-software.RollTheDiceHackwhich";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAFCDC022AE961C000CCEAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HLCYK9G2MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wills-software.RollTheDiceHackwhichTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollTheDiceHackwhich.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RollTheDiceHackwhich";
+			};
+			name = Debug;
+		};
+		CAFCDC032AE961C000CCEAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HLCYK9G2MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wills-software.RollTheDiceHackwhichTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollTheDiceHackwhich.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RollTheDiceHackwhich";
+			};
+			name = Release;
+		};
+		CAFCDC052AE961C000CCEAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HLCYK9G2MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wills-software.RollTheDiceHackwhichUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RollTheDiceHackwhich;
+			};
+			name = Debug;
+		};
+		CAFCDC062AE961C000CCEAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HLCYK9G2MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wills-software.RollTheDiceHackwhichUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RollTheDiceHackwhich;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFCDBD52AE961BE00CCEAD7 /* Build configuration list for PBXProject "RollTheDiceHackwhich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFCDBFC2AE961C000CCEAD7 /* Debug */,
+				CAFCDBFD2AE961C000CCEAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFCDBFE2AE961C000CCEAD7 /* Build configuration list for PBXNativeTarget "RollTheDiceHackwhich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFCDBFF2AE961C000CCEAD7 /* Debug */,
+				CAFCDC002AE961C000CCEAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFCDC012AE961C000CCEAD7 /* Build configuration list for PBXNativeTarget "RollTheDiceHackwhichTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFCDC022AE961C000CCEAD7 /* Debug */,
+				CAFCDC032AE961C000CCEAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFCDC042AE961C000CCEAD7 /* Build configuration list for PBXNativeTarget "RollTheDiceHackwhichUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFCDC052AE961C000CCEAD7 /* Debug */,
+				CAFCDC062AE961C000CCEAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFCDBD22AE961BE00CCEAD7 /* Project object */;
+}
