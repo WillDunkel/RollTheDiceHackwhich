@@ -20,7 +20,8 @@ struct ContentView: View {
                 .rotationEffect(.degrees(rotation))
                 .rotation3DEffect(.degrees(rotation), axis: (x: 1, y: 1, z: 0))
                 .padding()
-                .onTapGesture {
+                .onTapGesture(){
+                chooseRandom(times: 3)
                     randomValue = Int.random(in: 1...6)
                     withAnimation(.interpolatingSpring(stiffness: 10, damping: 2)){
                         rotation += 360
